@@ -1,0 +1,28 @@
+.right-align {
+    position: absolute;
+right: 0;
+padding-right: 40px;
+
+
+.text-wrap{
+    text-wrap: wrap;
+    white-space: wrap;
+}
+
+      
+}
+
+.padding{
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+   
+}
+
+hr{
+    margin-top: -20px;
+    
+}
+
+
+
