@@ -103,3 +103,16 @@ if (localStorage.getItem("theme") === "light_theme") {
   document.body.classList.remove("light_theme");
   document.body.classList.add("dark_theme");
 }
+
+// Carousel
+
+
+  let currentSlide = 0;
+
+  function moveCarousel(direction) {
+    const statsList = document.querySelector('.stats-list');
+    const totalSlides = statsList.children.length;
+    currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+    statsList.style.transform = `translateX(-${currentSlide * 100}%)`;
+  }
+
